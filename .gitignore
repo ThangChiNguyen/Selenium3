@@ -91,4 +91,8 @@ local.properties
 # Spring Boot Tooling
 .sts4-cache/
 
+# Report
+SeleniumFrameWork/TestReport/
+SeleniumFrameWork/test-output/
+
 # End of https://www.toptal.com/developers/gitignore/api/eclipse
