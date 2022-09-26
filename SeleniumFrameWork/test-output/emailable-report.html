@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Run Remote Suit Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">44,587</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run Remote Suit Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Tiki.TikiTest</td><td><a href="#m0">TestCase001</a></td><td rowspan="1">1664174500536</td><td rowspan="1">40971</td></tr><tr class="failedeven"><td><a href="#m1">TestCase002</a></td><td rowspan="1">1664174500540</td><td rowspan="1">33801</td></tr></tbody>
+</table>
+<h2>Run Remote Suit Test</h2><h3 id="m0">Tiki.TikiTest#TestCase001</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><b>INFO: </b>Test case 001: Verify the product information loaded correctly<br/>09.26.2022 - 13:41:40 - INFO: Test case 001: Verify the product information loaded correctly<br/><b>INFO: </b>Step 1: Navigate to "TIKI" website<br/>09.26.2022 - 13:41:40 - INFO: Step 1: Navigate to "TIKI" website<br/><b style="color: blue;word-break:break-word;"><i style="color: orange">VERIFY POINT: </i>Verify that: "Tìm sản phẩm ..." textbox is displayed</b><br/>09.26.2022 - 13:41:44 - VERIFY POINT: Verify that: "Tìm sản phẩm ..." textbox is displayed<br/><b style="color: blue;word-break:break-word;"><i style="color: orange">VERIFY POINT: </i>"Tìm kiếm" button is displayed</b><br/>09.26.2022 - 13:41:44 - VERIFY POINT: "Tìm kiếm" button is displayed<br/><b>INFO: </b>Step 2: On home page, enter value in "Tìm sản phẩm ..." textbox<br/>09.26.2022 - 13:41:44 - INFO: Step 2: On home page, enter value in "Tìm sản phẩm ..." textbox<br/><b>INFO: </b>Step 3: Click "Tìm kiếm" button<br/>09.26.2022 - 13:41:44 - INFO: Step 3: Click "Tìm kiếm" button<br/><b style="color: blue;word-break:break-word;"><i style="color: orange">VERIFY POINT: </i>Verify that: Breadcrumb is "Trang chủ > Điện thoại"</b><br/>09.26.2022 - 13:41:50 - VERIFY POINT: Verify that: Breadcrumb is "Trang chủ > Điện thoại"<br/><b style="color: blue;word-break:break-word;"><i style="color: orange">VERIFY POINT: </i>Verify that: "Kết quả tìm kiếm cho `Điện thoại`" title is displayed</b><br/>09.26.2022 - 13:41:51 - VERIFY POINT: Verify that: "Kết quả tìm kiếm cho `Điện thoại`" title is displayed<br/><b>INFO: </b>Step 4: Select any item from result grid<br/>09.26.2022 - 13:41:51 - INFO: Step 4: Select any item from result grid</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of any elements located by By.xpath: //a[@class=&apos;product-item&apos;]//div[@class=&apos;name&apos;]/span (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-QOMCG4H&apos;, ip: &apos;192.168.1.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\thang\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: bcf7fad3fb80c4328329fa2fd9a...}
+Session ID: bcf7fad3fb80c4328329fa2fd9a10d5c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at ElementWrapper.BaseElement.waitForAllElementsPresent(BaseElement.java:98)
+	at Tiki.ProductSearchPage.getRandomProductInformation(ProductSearchPage.java:44)
+	at Tiki.TikiTest.TestCase001(TikiTest.java:43)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Tiki.TikiTest#TestCase002</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><b>INFO: </b>Test case 002: Verify user can filter search condition for product<br/>09.26.2022 - 13:41:40 - INFO: Test case 002: Verify user can filter search condition for product<br/><b>INFO: </b>Step 1: Navigate to "TIKI" website<br/>09.26.2022 - 13:41:40 - INFO: Step 1: Navigate to "TIKI" website<br/><b>INFO: </b>Step 2: Select left menu<br/>09.26.2022 - 13:41:43 - INFO: Step 2: Select left menu</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@class=&apos;Menu-button&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at ElementWrapper.BaseElement.waitForClickable(BaseElement.java:110)
+	at ElementWrapper.Element.click(Element.java:44)
+	at Tiki.GeneralPage.selectMenuItem(GeneralPage.java:66)
+	at Tiki.TikiTest.TestCase002(TikiTest.java:59)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;Menu-button&apos;]&quot;}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-QOMCG4H&apos;, ip: &apos;192.168.1.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\thang\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 4aa7bbb4e62f6770310dc166aed...}
+Session ID: 4aa7bbb4e62f6770310dc166aed54be4
+*** Element info: {Using=xpath, value=//a[@class=&apos;Menu-button&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 19 more
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

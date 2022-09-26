@@ -1,0 +1,154 @@
+Sep 26, 2022 1:35:16 PM DriverWrapper.Driver <init>
+INFO: Creating new Chrome driver
+Sep 26, 2022 1:35:21 PM DriverWrapper.Driver <init>
+SEVERE: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 105.0.5195.127 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QOMCG4H', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00A8B9D3+2472403]
+	Ordinal0 [0x00A26961+2058593]
+	Ordinal0 [0x009322B8+1057464]
+	Ordinal0 [0x009503FA+1180666]
+	Ordinal0 [0x0094C2E5+1164005]
+	Ordinal0 [0x00949B7F+1153919]
+	Ordinal0 [0x0097997F+1350015]
+	Ordinal0 [0x009795EA+1349098]
+	Ordinal0 [0x0097545B+1332315]
+	Ordinal0 [0x00951FB4+1187764]
+	Ordinal0 [0x00952E09+1191433]
+	GetHandleVerifier [0x00C13396+1551078]
+	GetHandleVerifier [0x00CBD53A+2247818]
+	GetHandleVerifier [0x00B17FBB+521995]
+	GetHandleVerifier [0x00B17079+518089]
+	Ordinal0 [0x00A2BD4D+2080077]
+	Ordinal0 [0x00A2FC18+2096152]
+	Ordinal0 [0x00A2FD52+2096466]
+	Ordinal0 [0x00A394B1+2135217]
+	BaseThreadInitThunk [0x76E6FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x772A7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x772A7A6E+238]
+
+Sep 26, 2022 1:38:41 PM DriverWrapper.Driver <init>
+INFO: Creating new Chrome driver
+Sep 26, 2022 1:38:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Sep 26, 2022 1:38:44 PM DriverWrapper.DriverManagement addDriver
+INFO: DriverManagement is adding driver on thread main-1
+Sep 26, 2022 1:38:47 PM ElementWrapper.BaseElement isDisplayed
+INFO: Check if control By.xpath: //input[@data-view-id='main_search_form_input'] is displayed
+Sep 26, 2022 1:38:47 PM ElementWrapper.BaseElement waitForPresent
+INFO: Wait for control By.xpath: //input[@data-view-id='main_search_form_input'] to be present in DOM with timeOut 30
+Sep 26, 2022 1:38:47 PM ElementWrapper.Element getAttribute
+INFO: Get attribute 'placeholder' of element By.xpath: //input[@data-view-id='main_search_form_input']
+Sep 26, 2022 1:38:47 PM ElementWrapper.BaseElement isDisplayed
+INFO: Check if control By.xpath: //button[@data-view-id='main_search_form_button'] is displayed
+Sep 26, 2022 1:38:47 PM ElementWrapper.BaseElement waitForPresent
+INFO: Wait for control By.xpath: //button[@data-view-id='main_search_form_button'] to be present in DOM with timeOut 30
+Sep 26, 2022 1:38:47 PM ElementWrapper.Element sendKeys
+INFO: Send keys to element By.xpath: //input[@data-view-id='main_search_form_input']
+Sep 26, 2022 1:38:47 PM ElementWrapper.BaseElement waitForVisibility
+INFO: Wait for control By.xpath: //input[@data-view-id='main_search_form_input'] visibility with timeOut: 30
+Sep 26, 2022 1:38:47 PM ElementWrapper.BaseElement waitForVisibility
+INFO: Wait for control By.xpath: //input[@data-view-id='main_search_form_input'] visibility with timeOut: 30
+Sep 26, 2022 1:38:48 PM ElementWrapper.Element click
+INFO: Click on By.xpath: //button[@data-view-id='main_search_form_button']
+Sep 26, 2022 1:38:48 PM ElementWrapper.BaseElement waitForClickable
+INFO: Wait for control By.xpath: //button[@data-view-id='main_search_form_button'] to be clickabled with timeout: 30
+Sep 26, 2022 1:38:48 PM ElementWrapper.BaseElement waitForPresent
+INFO: Wait for control By.xpath: //iframe[@id='_hjRemoteVarsFrame'] to be present in DOM with timeOut 30
+Sep 26, 2022 1:38:51 PM ElementWrapper.BaseElement waitForVisibility
+INFO: Wait for control By.xpath: //div[@class='title']/h1 visibility with timeOut: 30
+Sep 26, 2022 1:38:51 PM ElementWrapper.BaseElement waitForVisibility
+INFO: Wait for control By.xpath: //div[@class='title']/h1[contains(text(),'Điện thoại')] visibility with timeOut: 30
+Sep 26, 2022 1:38:51 PM ElementWrapper.Element getAllTexts
+INFO: Get all name of elements By.xpath: //div[@class='breadcrumb']/a[@class='breadcrumb-item']
+Sep 26, 2022 1:38:51 PM ElementWrapper.Element getText
+INFO: Get text of element By.xpath: //div[@class='title']/h1
+Sep 26, 2022 1:38:51 PM ElementWrapper.BaseElement waitForVisibility
+INFO: Wait for control By.xpath: //div[@class='title']/h1 visibility with timeOut: 30
+Sep 26, 2022 1:38:52 PM ElementWrapper.BaseElement waitForAllElementsPresent
+INFO: Wait for all controls By.xpath: //a[@class='product-item']//div[@class='name']/span to be present in DOM with timeOut 30
+Sep 26, 2022 1:39:22 PM ElementWrapper.BaseElement waitForAllElementsPresent
+SEVERE: Has error with control 'By.xpath: //a[@class='product-item']//div[@class='name']/span': Expected condition failed: waiting for presence of any elements located by By.xpath: //a[@class='product-item']//div[@class='name']/span (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QOMCG4H', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\thang\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ea325e2b1fb4b481ce177cb87141391
+Sep 26, 2022 1:39:46 PM DriverWrapper.Driver <init>
+INFO: Creating new Chrome driver
+Sep 26, 2022 1:39:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Sep 26, 2022 1:39:48 PM DriverWrapper.DriverManagement addDriver
+INFO: DriverManagement is adding driver on thread main-1
+Sep 26, 2022 1:39:50 PM ElementWrapper.Element click
+INFO: Click on By.xpath: //a[@class='Menu-button']
+Sep 26, 2022 1:39:50 PM ElementWrapper.BaseElement waitForClickable
+INFO: Wait for control By.xpath: //a[@class='Menu-button'] to be clickabled with timeout: 30
+Sep 26, 2022 1:41:37 PM DriverWrapper.Driver <init>
+INFO: Creating new Chrome driver
+Sep 26, 2022 1:41:37 PM DriverWrapper.Driver <init>
+INFO: Creating new Chrome driver
+Sep 26, 2022 1:41:37 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Sep 26, 2022 1:41:37 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Sep 26, 2022 1:41:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Sep 26, 2022 1:41:39 PM DriverWrapper.DriverManagement addDriver
+INFO: DriverManagement is adding driver on thread TestNG-test=Run Remote Suit Test-1-19
+Sep 26, 2022 1:41:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Sep 26, 2022 1:41:40 PM DriverWrapper.DriverManagement addDriver
+INFO: DriverManagement is adding driver on thread TestNG-test=Run Remote Suit Test-2-20
+Sep 26, 2022 1:41:43 PM ElementWrapper.Element click
+INFO: Click on By.xpath: //a[@class='Menu-button']
+Sep 26, 2022 1:41:43 PM ElementWrapper.BaseElement waitForClickable
+INFO: Wait for control By.xpath: //a[@class='Menu-button'] to be clickabled with timeout: 30
+Sep 26, 2022 1:41:44 PM ElementWrapper.BaseElement isDisplayed
+INFO: Check if control By.xpath: //input[@data-view-id='main_search_form_input'] is displayed
+Sep 26, 2022 1:41:44 PM ElementWrapper.BaseElement waitForPresent
+INFO: Wait for control By.xpath: //input[@data-view-id='main_search_form_input'] to be present in DOM with timeOut 30
+Sep 26, 2022 1:41:44 PM ElementWrapper.Element getAttribute
+INFO: Get attribute 'placeholder' of element By.xpath: //input[@data-view-id='main_search_form_input']
+Sep 26, 2022 1:41:44 PM ElementWrapper.BaseElement isDisplayed
+INFO: Check if control By.xpath: //button[@data-view-id='main_search_form_button'] is displayed
+Sep 26, 2022 1:41:44 PM ElementWrapper.BaseElement waitForPresent
+INFO: Wait for control By.xpath: //button[@data-view-id='main_search_form_button'] to be present in DOM with timeOut 30
+Sep 26, 2022 1:41:44 PM ElementWrapper.Element sendKeys
+INFO: Send keys to element By.xpath: //input[@data-view-id='main_search_form_input']
+Sep 26, 2022 1:41:44 PM ElementWrapper.BaseElement waitForVisibility
+INFO: Wait for control By.xpath: //input[@data-view-id='main_search_form_input'] visibility with timeOut: 30
+Sep 26, 2022 1:41:45 PM ElementWrapper.BaseElement waitForVisibility
+INFO: Wait for control By.xpath: //input[@data-view-id='main_search_form_input'] visibility with timeOut: 30
+Sep 26, 2022 1:41:45 PM ElementWrapper.Element click
+INFO: Click on By.xpath: //button[@data-view-id='main_search_form_button']
+Sep 26, 2022 1:41:45 PM ElementWrapper.BaseElement waitForClickable
+INFO: Wait for control By.xpath: //button[@data-view-id='main_search_form_button'] to be clickabled with timeout: 30
+Sep 26, 2022 1:41:46 PM ElementWrapper.BaseElement waitForPresent
+INFO: Wait for control By.xpath: //iframe[@id='_hjRemoteVarsFrame'] to be present in DOM with timeOut 30
+Sep 26, 2022 1:41:50 PM ElementWrapper.BaseElement waitForVisibility
+INFO: Wait for control By.xpath: //div[@class='title']/h1 visibility with timeOut: 30
+Sep 26, 2022 1:41:50 PM ElementWrapper.BaseElement waitForVisibility
+INFO: Wait for control By.xpath: //div[@class='title']/h1[contains(text(),'Điện thoại')] visibility with timeOut: 30
+Sep 26, 2022 1:41:51 PM ElementWrapper.Element getAllTexts
+INFO: Get all name of elements By.xpath: //div[@class='breadcrumb']/a[@class='breadcrumb-item']
+Sep 26, 2022 1:41:51 PM ElementWrapper.Element getText
+INFO: Get text of element By.xpath: //div[@class='title']/h1
+Sep 26, 2022 1:41:51 PM ElementWrapper.BaseElement waitForVisibility
+INFO: Wait for control By.xpath: //div[@class='title']/h1 visibility with timeOut: 30
+Sep 26, 2022 1:41:51 PM ElementWrapper.BaseElement waitForAllElementsPresent
+INFO: Wait for all controls By.xpath: //a[@class='product-item']//div[@class='name']/span to be present in DOM with timeOut 30
+Sep 26, 2022 1:42:14 PM ElementWrapper.BaseElement waitForClickable
+SEVERE: Has error with control 'By.xpath: //a[@class='Menu-button']': Expected condition failed: waiting for element to be clickable: By.xpath: //a[@class='Menu-button'] (tried for 30 second(s) with 500 milliseconds interval)
+Sep 26, 2022 1:42:14 PM ElementWrapper.Element click
+SEVERE: Has error with control 'By.xpath: //a[@class='Menu-button']': Expected condition failed: waiting for element to be clickable: By.xpath: //a[@class='Menu-button'] (tried for 30 second(s) with 500 milliseconds interval)
+Sep 26, 2022 1:42:21 PM ElementWrapper.BaseElement waitForAllElementsPresent
+SEVERE: Has error with control 'By.xpath: //a[@class='product-item']//div[@class='name']/span': Expected condition failed: waiting for presence of any elements located by By.xpath: //a[@class='product-item']//div[@class='name']/span (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QOMCG4H', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\thang\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: bcf7fad3fb80c4328329fa2fd9a...}
+Session ID: bcf7fad3fb80c4328329fa2fd9a10d5c
