@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is created for running test suit -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- Run parallel with number of threads -->
+<suite name="Suite" thread-count="2" parallel="methods">
+
+	<!-- Supported browser names: Chrome; Firefox -->
+	<parameter name="broswer" value="Chrome"></parameter>
+	
+	<!-- Value parameters: Local, Remote -->
+	<parameter name="runningMode" value="Remote"></parameter>
+
+	<listeners>
+		<listener class-name="Common.TestListener" />
+	</listeners>
+	
+  	<test name="Run Remote Suit Test">
+  		<classes>
+			<class name="Tiki.TikiTest"><methods><include name="TestCase001"></include></methods></class>
+     		<class name="Tiki.TikiTest"><methods><include name="TestCase002"></include></methods></class>
+  		</classes>
+  	</test>
+  
+</suite> <!-- Suite -->
